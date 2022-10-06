@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mvalero4/web-de-peliculas-api-rest-javascript/issues"
   },
-  "homepage": "https://github.com/mvalero4/web-de-peliculas-api-rest-javascript#readme"
+  "homepage": "https://github.com/mvalero4/web-de-peliculas-api-rest-javascript#readme",
+  "devDependencies": {
+    "netlify-cli": "^12.0.6"
+  }
 }

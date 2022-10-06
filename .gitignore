@@ -105,3 +105,6 @@ dist
 
 # Secrets.js (API_KEY)
 src/Secrets.js
+
+# Local Netlify folder
+.netlify
