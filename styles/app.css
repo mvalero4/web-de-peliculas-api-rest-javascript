@@ -479,6 +479,12 @@ footer a{
 
 
 @media screen and (min-width: 1024px) {
+  body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
   .header-container{
     max-width: 800px;
     margin: 0 auto;
@@ -534,6 +540,12 @@ footer a{
 
   .genericList-container{
     max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .genericList-container .movie-container{
+    width: 25%;
   }
 
   .movieDetail-container{

@@ -11,8 +11,8 @@ trendingBtn.addEventListener("click", () => {
 });
 
 arrowBtn.addEventListener("click", () => {
-  // history.back();
-  location.hash = '#home';
+  history.back();
+  // location.hash = '#home';
 });
 
 window.addEventListener('DOMContentLoaded', navigation, false);
