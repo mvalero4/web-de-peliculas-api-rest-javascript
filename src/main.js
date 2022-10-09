@@ -11,6 +11,7 @@ const api = axios.create({
 });
 
 
+
 function likedMoviesList() {
   const item = JSON.parse(localStorage.getItem('liked_movies'));
   let movies;
@@ -25,6 +26,8 @@ function likedMoviesList() {
 }
 
 
+
+
 function likeMovie(movie) {
   const likedMovies = likedMoviesList();
 
@@ -36,6 +39,7 @@ function likeMovie(movie) {
 
   localStorage.setItem('liked_movies', JSON.stringify(likedMovies));
 }
+
 
 
 
